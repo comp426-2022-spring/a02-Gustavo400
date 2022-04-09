@@ -6,6 +6,7 @@ let guess = whatWillItBe.substr(7); //7 is the length of "--call=" which is bein
 
 if (guess != "heads" && guess != "tails") {
     console.log("Error: no input.");
+    console.log("Usage: node guess-flip --call=[heads|tails]")
 } else {
     let outcome = coin.coinFlip();
     let victory = guess === outcome ? "win" : "lose";
