@@ -18,12 +18,11 @@
 
 
 function coinFlip() {
-  if (Math.round(Math.random) === 0) {
+  if (Math.round(Math.random()) === 0) {
     return "tails";
   } else {
     return "heads";
   }
-
 }
 
 /** Multiple coin flips
