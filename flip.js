@@ -2,4 +2,5 @@
 import * as coin from "./modules/coin.mjs";
 
 // Call the coinFlip function and put the return into STDOUT
-console.log(coin.coinFlip());
+// console.log(coin.coinFlip());
+console.log(coin.coinFlips(7));
