@@ -19,9 +19,9 @@
 
 function coinFlip() {
   if (Math.round(Math.random) === 0) {
-    return tails;
+    return "tails";
   } else {
-    return heads;
+    return "heads";
   }
 
 }
