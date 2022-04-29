@@ -8,3 +8,4 @@ let results = coin.coinFlips(dracula);
 
 console.log(results);
 console.log(coin.countFlips(results));
+
